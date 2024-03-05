@@ -1,4 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
+///Nombre del estudiante
+///Grupo: 213022_118
+///Programa: Ingenieria en Sistemas
+///Código Fuente: autoría propia
+
+
 
 namespace Consoleapp1
 {
@@ -23,7 +29,7 @@ namespace Consoleapp1
             Console.WriteLine("Ingrese el numero de peras que desea llevar");
             int Peras = Convert.ToInt32(Console.ReadLine());
 
-            const int peras_value = 560;
+            const int peras_value = 460;
             int peras_total = Peras * peras_value;
 
             Console.WriteLine("Ha ordenado " + Peras + " peras");
@@ -33,7 +39,7 @@ namespace Consoleapp1
             Console.WriteLine("Ingrese el numero de ciruelas que desea llevar");
             int ciruelas = Convert.ToInt32(Console.ReadLine());
 
-            const int ciruelas_value = 560;
+            const int ciruelas_value = 30;
             int ciruelas_total = ciruelas * ciruelas_value;
 
             Console.WriteLine("Ha ordenado " + ciruelas + " ciruelas");
@@ -43,7 +49,7 @@ namespace Consoleapp1
             Console.WriteLine("Ingrese el numero de Bananos que desea llevar");
             int bananas = Convert.ToInt32(Console.ReadLine());
 
-            const int bananas_value = 560;
+            const int bananas_value = 80;
             int bananas_total = bananas * bananas_value;
 
             Console.WriteLine("Ha ordenado " + bananas + " bananas");
@@ -53,7 +59,7 @@ namespace Consoleapp1
             Console.WriteLine("Ingrese el numero de piñass que desea llevar");
             int piñas = Convert.ToInt32(Console.ReadLine());
 
-            const int piñas_value = 560;
+            const int piñas_value = 1000;
             int piñas_total = piñas * piñas_value;
 
             Console.WriteLine("Ha ordenado " + piñas + " Piñas");
